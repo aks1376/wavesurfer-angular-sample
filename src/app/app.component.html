@@ -1,1 +1,3 @@
-<app-wavesurfer></app-wavesurfer>
+<input type="file" (change)="onAddAudioFile($event)">
+
+<app-wavesurfer [audioUrl]="audioUrl"></app-wavesurfer>
