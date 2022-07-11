@@ -2,5 +2,7 @@
   <div id="waveform"></div>
   <div class="controller">
     <button (click)="onPlayPause()">Play/Pause</button>
+    <p #currentTimeRef>00:00:00</p>
+    <p>{{audioDurationHuman}}</p>
   </div>
 </section>
